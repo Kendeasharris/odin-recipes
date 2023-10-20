@@ -1,9 +1,14 @@
 ul {
+    list-style-type: none;
+    text-align: center;
+    color: gray;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
     text-align: center;
     list-style-type: none;
-    color: grey;
+
 }
 
 img {
@@ -25,7 +30,9 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-style: italic;
-    text-decoration: overline;
+    text-decoration: double;
+    border: 20px;
+
 }  
 
 h2 {
@@ -46,18 +53,37 @@ p {
 ol {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
     color: grey;
-
+    
+    
 }
 
 
-a:hover
- {
-  background-color: greenyellow;
-}
+
 
 body {
     background-color: antiquewhite;
 
 }
+
+
+
+
+.lasagna {
+    background-color: #548CA8;
+    
+}
+
+.sushi {
+    background-color: #476072;
+}
+
+.linguine {
+    background-color: #334257;
+
+}
+
+.toad {
+    background-color: #334201;
+}
+
